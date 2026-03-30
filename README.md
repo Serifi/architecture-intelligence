@@ -13,10 +13,8 @@ Architecture Intelligence is a web-based, AI-powered platform that supports the 
 <img width="2551" height="576" alt="15b" src="https://github.com/user-attachments/assets/c96a1da9-581a-42d7-9dd5-4d922a72052f" />
 <img width="2406" height="1140" alt="20" src="https://github.com/user-attachments/assets/f40b6691-2c9e-4d77-90c2-500eb5b41b11" />
 
-## Diagramme
-<img width="981" height="996" alt="ER Diagramm" src="https://github.com/user-attachments/assets/323d4293-a954-472c-9abe-da0d36e83a9a" />
+## Komponenten
 <img width="879" height="814" alt="Komponentendiagramm" src="https://github.com/user-attachments/assets/7570315b-f132-4258-9c82-3b88ea26f21e" />
-<img width="1652" height="404" alt="Prozessmodell" src="https://github.com/user-attachments/assets/9664390f-f862-4ff1-bdeb-3fc62bab4206" />
 
 ## Anleitung
 
