@@ -1,0 +1,342 @@
+{
+  "common": {
+    "cancel": "Cancel",
+    "save": "Save",
+    "create": "Create",
+    "delete": "Delete",
+    "unknown": "Unknown",
+    "placeholder": {
+      "text": "Enter text..."
+    }
+  },
+  "time": {
+    "justNow": "just now",
+    "minutesAgo": "{n} minutes ago",
+    "hoursAgo": "{n} hours ago",
+    "daysAgo": "{n} days ago"
+  },
+  "notify": {
+    "summary": {
+      "success": "Success",
+      "error": "Error"
+    },
+    "crud": {
+      "summary": {
+        "success": "Action successful"
+      },
+      "create": {
+        "success": "{entity} was created successfully.",
+        "error": "{entity}: failed to create."
+      },
+      "update": {
+        "success": "{entity} was updated successfully.",
+        "error": "{entity}: failed to update."
+      },
+      "delete": {
+        "success": "{entity} was deleted successfully.",
+        "error": "{entity}: failed to delete."
+      },
+      "other": {
+        "success": "{entity} completed successfully.",
+        "error": "{entity}: action failed."
+      }
+    },
+    "auth": {
+      "notAuthenticated": "User not authenticated.",
+      "notLoggedIn": "No user logged in.",
+      "register": {
+        "success": "Registration successful.",
+        "error": "Registration failed."
+      },
+      "login": {
+        "success": "Signed in successfully.",
+        "error": "Sign in failed."
+      },
+      "profileUpdated": "Profile updated.",
+      "profileUpdateError": "Profile could not be updated."
+    },
+    "projects": {
+      "fetchError": "Projects could not be loaded.",
+      "fetchOneError": "Project could not be loaded.",
+      "reorderError": "Projects could not be reordered.",
+      "createSuccess": "Project was created.",
+      "createError": "Project could not be created.",
+      "updateSuccess": "Project was updated.",
+      "updateError": "Project could not be updated.",
+      "deleteSuccess": "Project was deleted.",
+      "deleteError": "Project could not be deleted."
+    },
+    "statuses": {
+      "fetchError": "Statuses could not be loaded.",
+      "deleteError": "Status could not be deleted.",
+      "saveError": "Statuses could not be saved.",
+      "saveSuccess": "Statuses were saved."
+    },
+    "decisions": {
+      "fetchError": "Decisions could not be loaded.",
+      "fetchOneError": "Decision could not be loaded.",
+      "updateFieldsSuccess": "Architecture decision was updated successfully.",
+      "updateFieldsError": "Fields could not be saved.",
+      "updateStatusSuccess": "Status was updated.",
+      "updateStatusError": "Status could not be updated.",
+      "deleteSuccess": "Architecture decision was deleted.",
+      "deleteError": "Architecture decision could not be deleted.",
+      "createSuccess": "Architecture decision was created.",
+      "createError": "Architecture decision could not be created.",
+      "chatError": "Chat failed.",
+      "templateMissing": "TemplateID is missing for this decision.",
+      "ai": {
+        "defaultTitle": "AI generated architecture decision",
+        "success": "Architecture suggestion generated successfully.",
+        "error": "Failed to generate architecture suggestion.",
+        "altDefaultTitle": "Alternative architecture decision",
+        "altSuccess": "Alternative suggestions generated successfully.",
+        "altError": "Failed to generate alternative suggestions."
+      }
+    },
+    "history": {
+      "fetchError": "History could not be loaded.",
+      "deleteSuccess": "History entry was deleted.",
+      "deleteError": "History entry could not be deleted."
+    },
+    "templates": {
+      "fetchError": "Template could not be loaded."
+    },
+    "attachments": {
+      "fetchError": "Attachments could not be loaded.",
+      "uploadSuccess": "\"{filename}\" was uploaded successfully.",
+      "uploadError": "\"{filename}\" could not be uploaded.",
+      "deleteSuccess": "\"{filename}\" was deleted successfully.",
+      "deleteError": "\"{filename}\" could not be deleted."
+    }
+  },
+  "header": {
+    "appTitle": "Architecture Intelligence",
+    "subtitle": {
+      "projects": "Projects"
+    },
+    "language": {
+      "de": "German",
+      "en": "English"
+    },
+    "user": {
+      "settings": "Settings",
+      "logout": "Log out"
+    },
+    "settings": {
+      "title": "Settings",
+      "emailLabel": "Email",
+      "emailInvalid": "Please enter a valid email address.",
+      "newPassword": "New password",
+      "cancel": "Cancel",
+      "save": "Save"
+    }
+  },
+  "auth": {
+    "email": {
+      "invalid": "Please enter a valid email address."
+    },
+    "login": {
+      "submit": "Sign in"
+    },
+    "register": {
+      "submit": "Sign up"
+    },
+    "switch": {
+      "toLogin": "Already have an account? Sign in",
+      "toRegister": "No account yet? Sign up"
+    },
+    "password": {
+      "label": "Password",
+      "rules": {
+        "title": "Password rules",
+        "minLength": "At least 8 characters",
+        "lowercase": "At least one lowercase letter",
+        "uppercase": "At least one uppercase letter",
+        "digit": "At least one digit"
+      }
+    }
+  },
+  "projects": {
+    "add": "Create project",
+    "updatedPrefix": "Updated",
+    "card": {
+      "noDescription": "No description"
+    },
+    "empty": {
+      "title": "No projects",
+      "text": "Create your first project to get started."
+    },
+    "priority": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High",
+      "critical": "Critical"
+    },
+    "form": {
+      "titleCreate": "Create project",
+      "titleEdit": "Edit project",
+      "name": "Name",
+      "priority": "Priority",
+      "description": "Description",
+      "icon": "Icon",
+      "color": "Color",
+      "tags": "Tags",
+      "tagPlaceholder": "Type a tag and press Enter",
+      "nameConflict": "A project with this name already exists."
+    },
+    "delete": {
+      "title": "Delete project?",
+      "text": {
+        "before": "Do you really want to delete the project",
+        "after": "This action cannot be undone."
+      }
+    }
+  },
+  "overview": {
+    "title": "Architecture Decisions",
+    "search": {
+      "placeholder": "Search decisions..."
+    },
+    "actions": {
+      "createSuggestion": "Generate suggestion"
+    },
+    "loading": {
+      "decisions": "Loading decisions...",
+      "files": "Loading attachments..."
+    },
+    "board": {
+      "lastUpdated": "Updated:"
+    },
+    "table": {
+      "id": "ID",
+      "title": "Title",
+      "status": "Status",
+      "lastUpdated": "Last updated"
+    },
+    "errors": {
+      "updateDecisionStatus": "Status could not be updated."
+    },
+    "status": {
+      "title": "Statuses",
+      "add": "Add status",
+      "namePlaceholder": "Status name",
+      "duplicateError": "Status names must be unique.",
+      "defaultName": "Status"
+    },
+    "attach": {
+      "title": "Attachments",
+      "selected": "Selected",
+      "uploaded": "Uploaded",
+      "empty": "Drop files here or select files",
+      "existingTitle": "Existing files",
+      "none": "No attachments.",
+      "clickToUpload": "Click on the cloud to upload files."
+    }
+  },
+  "detail": {
+    "divider": {
+      "history": "History",
+      "template": "Template"
+    },
+    "header": {
+      "idPrefix": "ID:",
+      "createdPrefix": "Created:",
+      "updatedPrefix": "Updated:",
+      "requiredHint": "* Required",
+      "history": "History",
+      "fields": "Fields",
+      "edit": "Edit",
+      "save": "Save",
+      "delete": "Delete",
+      "loadingTitle": "Loading decision ...",
+      "titlePlaceholder": "Enter title..."
+    },
+    "template": {
+      "fieldsTitle": "Fields",
+      "placeholder": "Enter text...",
+      "none": "No value"
+    },
+    "history": {
+      "empty": "History is empty.",
+      "searchPlaceholder": "Search...",
+      "timeRangePlaceholder": "Time range",
+      "typePlaceholder": "Type",
+      "timeRanges": {
+        "24h": "24 hours",
+        "7d": "7 days",
+        "30d": "30 days"
+      },
+      "types": {
+        "created": "Creation",
+        "statusChanged": "Status change",
+        "fieldChanged": "Field change"
+      }
+    },
+    "deletion": {
+      "title": "Delete architecture decision?",
+      "text": {
+        "before": "Do you really want to delete the architecture decision",
+        "after": "This action cannot be undone."
+      },
+      "cancel": "Cancel",
+      "confirm": "Delete"
+    },
+    "errors": {
+      "invalidUrl": "Invalid URL.",
+      "invalidUrlDecisionId": "Invalid URL – no valid decision ID.",
+      "loadDecisionFailed": "Failed to load the architecture decision.",
+      "notLoggedIn": "No user logged in.",
+      "saveFailed": "Failed to save changes."
+    }
+  },
+  "create": {
+    "title": "Architecture Decisions",
+    "form": {
+      "prompt": "Prompt (optional)",
+      "template": "Template",
+      "promptPlaceholder": "Paste text...",
+      "templatePlaceholder": "Select..."
+    },
+    "actions": {
+      "generate": "Generate suggestion",
+      "add": "Add decision",
+      "compare": "Compare suggestions",
+      "discard": "Delete"
+    },
+    "errors": {
+      "templates": "Templates could not be loaded.",
+      "projectId": "Invalid project ID in URL.",
+      "templateMissing": "No valid template found for the suggestion."
+    },
+    "suggestion": {
+      "divider": "Suggestion",
+      "thinking": "Thinking ...",
+      "empty": {
+        "before": "Select a prompt and a template and click",
+        "cta": "\"Generate suggestion\"",
+        "after": "."
+      },
+      "fallbackTitle": "Architecture suggestion",
+      "emptyField": "Empty"
+    },
+    "alternatives": {
+      "title": "Alternatives",
+      "hint": "Click to adopt this alternative as the current suggestion.",
+      "loading": "Generating alternatives ...",
+      "empty": "No alternative suggestions were generated or found yet.",
+      "fallbackAlt": "Alternative",
+      "fieldFallback": "Field",
+      "dash": "—"
+    },
+    "chat": {
+      "title": "Chat",
+      "empty": "Ask questions about the generated suggestion, for example: \"What immediate risks arise from this architecture decision?\"",
+      "placeholder": "Enter text...",
+      "send": "Send"
+    },
+    "success": {
+      "discarded": "Architecture suggestion was discarded."
+    }
+  }
+}

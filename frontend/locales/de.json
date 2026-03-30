@@ -1,0 +1,342 @@
+{
+  "common": {
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "create": "Erstellen",
+    "delete": "Löschen",
+    "unknown": "Unbekannt",
+    "placeholder": {
+      "text": "Text eingeben..."
+    }
+  },
+  "time": {
+    "justNow": "gerade eben",
+    "minutesAgo": "vor {n} Minuten",
+    "hoursAgo": "vor {n} Stunden",
+    "daysAgo": "vor {n} Tagen"
+  },
+  "notify": {
+    "summary": {
+      "success": "Erfolg",
+      "error": "Fehler"
+    },
+    "crud": {
+      "summary": {
+        "success": "Aktion erfolgreich"
+      },
+      "create": {
+        "success": "{entity} wurde erfolgreich erstellt.",
+        "error": "{entity}: Fehler beim Erstellen."
+      },
+      "update": {
+        "success": "{entity} wurde erfolgreich aktualisiert.",
+        "error": "{entity}: Fehler beim Aktualisieren."
+      },
+      "delete": {
+        "success": "{entity} wurde erfolgreich gelöscht.",
+        "error": "{entity}: Fehler beim Löschen."
+      },
+      "other": {
+        "success": "{entity} wurde erfolgreich ausgeführt.",
+        "error": "{entity}: Fehler bei der Aktion."
+      }
+    },
+    "auth": {
+      "notAuthenticated": "User nicht authentifiziert.",
+      "notLoggedIn": "Kein Benutzer angemeldet.",
+      "register": {
+        "success": "Registrierung erfolgreich.",
+        "error": "Registrierung fehlgeschlagen."
+      },
+      "login": {
+        "success": "Erfolgreich angemeldet.",
+        "error": "Anmeldung fehlgeschlagen."
+      },
+      "profileUpdated": "Profil aktualisiert.",
+      "profileUpdateError": "Profil konnte nicht aktualisiert werden."
+    },
+    "projects": {
+      "fetchError": "Projekte konnten nicht geladen werden.",
+      "fetchOneError": "Projekt konnte nicht geladen werden.",
+      "reorderError": "Projekte konnten nicht neu sortiert werden.",
+      "createSuccess": "Projekt wurde erstellt.",
+      "createError": "Projekt konnte nicht erstellt werden.",
+      "updateSuccess": "Projekt wurde aktualisiert.",
+      "updateError": "Projekt konnte nicht aktualisiert werden.",
+      "deleteSuccess": "Projekt wurde gelöscht.",
+      "deleteError": "Projekt konnte nicht gelöscht werden."
+    },
+    "statuses": {
+      "fetchError": "Status konnten nicht geladen werden.",
+      "deleteError": "Status konnte nicht gelöscht werden.",
+      "saveError": "Status konnten nicht gespeichert werden.",
+      "saveSuccess": "Status wurden gespeichert."
+    },
+    "decisions": {
+      "fetchError": "Entscheidungen konnten nicht geladen werden.",
+      "fetchOneError": "Entscheidung konnte nicht geladen werden.",
+      "updateFieldsSuccess": "Architekturentscheidung wurde erfolgreich aktualisiert.",
+      "updateFieldsError": "Felder konnten nicht gespeichert werden.",
+      "updateStatusSuccess": "Status wurde aktualisiert.",
+      "updateStatusError": "Status konnte nicht aktualisiert werden.",
+      "deleteSuccess": "Architekturentscheidung wurde gelöscht.",
+      "deleteError": "Architekturentscheidung konnte nicht gelöscht werden.",
+      "createSuccess": "Architekturentscheidung wurde erstellt.",
+      "createError": "Architekturentscheidung konnte nicht erstellt werden.",
+      "chatError": "Chat mit Architekturentscheidung fehlgeschlagen.",
+      "templateMissing": "TemplateID fehlt für die Architekturentscheidung.",
+      "ai": {
+        "defaultTitle": "AI generierte Architekturentscheidung",
+        "success": "Architekturvorschlag wurde erfolgreich generiert.",
+        "error": "Architekturvorschlag konnte nicht generiert werden.",
+        "altDefaultTitle": "Alternative Architekturentscheidung",
+        "altSuccess": "Alternative Architekturvorschläge wurden erfolgreich generiert.",
+        "altError": "Alternative Vorschläge konnten nicht generiert werden."
+      }
+    },
+    "history": {
+      "fetchError": "History konnte nicht geladen werden.",
+      "deleteSuccess": "History Eintrag wurde gelöscht.",
+      "deleteError": "History Eintrag konnte nicht gelöscht werden."
+    },
+    "templates": {
+      "fetchError": "Template konnte nicht geladen werden."
+    },
+    "attachments": {
+      "fetchError": "Anhänge konnten nicht geladen werden.",
+      "uploadSuccess": "\"{filename}\" wurde erfolgreich hochgeladen.",
+      "uploadError": "\"{filename}\" konnte nicht hochgeladen werden.",
+      "deleteSuccess": "\"{filename}\" wurde erfolgreich gelöscht.",
+      "deleteError": "\"{filename}\" konnte nicht gelöscht werden."
+    }
+  },
+  "header": {
+    "appTitle": "Architecture Intelligence",
+    "subtitle": {
+      "projects": "Projekte"
+    },
+    "language": {
+      "de": "Deutsch",
+      "en": "Englisch"
+    },
+    "user": {
+      "settings": "Einstellungen",
+      "logout": "Abmelden"
+    },
+    "settings": {
+      "title": "Einstellungen",
+      "emailLabel": "E-Mail",
+      "emailInvalid": "Bitte eine gültige E-Mail-Adresse eingeben.",
+      "newPassword": "Neues Passwort",
+      "cancel": "Abbrechen",
+      "save": "Speichern"
+    }
+  },
+  "auth": {
+    "email": {
+      "invalid": "Bitte eine gültige E-Mail Adresse eingeben."
+    },
+    "login": {
+      "submit": "Anmelden"
+    },
+    "register": {
+      "submit": "Registrieren"
+    },
+    "switch": {
+      "toLogin": "Schon ein Konto? Anmelden",
+      "toRegister": "Noch kein Konto? Registrieren"
+    },
+    "password": {
+      "label": "Passwort",
+      "rules": {
+        "title": "Passwortregeln",
+        "minLength": "Mindestens 8 Zeichen",
+        "lowercase": "Mindestens ein Kleinbuchstabe",
+        "uppercase": "Mindestens ein Großbuchstabe",
+        "digit": "Mindestens eine Zahl"
+      }
+    }
+  },
+  "projects": {
+    "add": "Projekt erstellen",
+    "updatedPrefix": "Aktualisiert",
+    "card": {
+      "noDescription": "Keine Beschreibung"
+    },
+    "empty": {
+      "title": "Keine Projekte",
+      "text": "Erstelle dein erstes Projekt, um loszulegen."
+    },
+    "priority": {
+      "low": "Niedrig",
+      "medium": "Mittel",
+      "high": "Hoch",
+      "critical": "Kritisch"
+    },
+    "form": {
+      "titleCreate": "Projekt erstellen",
+      "titleEdit": "Projekt bearbeiten",
+      "name": "Name",
+      "priority": "Priorität",
+      "description": "Beschreibung",
+      "icon": "Icon",
+      "color": "Farbe",
+      "tags": "Tags",
+      "tagPlaceholder": "Tag eingeben und Enter drücken",
+      "nameConflict": "Ein Projekt mit diesem Namen existiert bereits."
+    },
+    "delete": {
+      "title": "Projekt löschen?",
+      "text": {
+        "before": "Soll das Projekt",
+        "after": "wirklich gelöscht werden? Diese Aktion kann nicht rückgängig gemacht werden."
+      }
+    }
+  },
+  "overview": {
+    "title": "Architekturentscheidungen",
+    "search": {
+      "placeholder": "Entscheidungen suchen..."
+    },
+    "actions": {
+      "createSuggestion": "Architekturvorschlag erstellen"
+    },
+    "loading": {
+      "decisions": "Entscheidungen werden geladen...",
+      "files": "Anhänge werden geladen..."
+    },
+    "board": {
+      "lastUpdated": "Aktualisiert:"
+    },
+    "table": {
+      "id": "ID",
+      "title": "Titel",
+      "status": "Status",
+      "lastUpdated": "Letzte Aktualisierung"
+    },
+    "errors": {
+      "updateDecisionStatus": "Status konnte nicht aktualisiert werden."
+    },
+    "status": {
+      "title": "Status",
+      "add": "Status hinzufügen",
+      "namePlaceholder": "Statusname",
+      "duplicateError": "Statusnamen müssen eindeutig sein.",
+      "defaultName": "Status"
+    },
+    "attach": {
+      "title": "Anhänge",
+      "selected": "Ausgewählt",
+      "uploaded": "Hochgeladen",
+      "empty": "Dateien hier ablegen oder auswählen",
+      "existingTitle": "Vorhandene Dateien",
+      "none": "Keine Anhänge vorhanden.",
+      "clickToUpload": "Klick auf die Wolke, um Dateien hochzuladen."
+    }
+  },
+  "detail": {
+    "divider": {
+      "history": "Verlauf",
+      "template": "Template"
+    },
+    "header": {
+      "idPrefix": "ID:",
+      "createdPrefix": "Erstellt:",
+      "updatedPrefix": "Aktualisiert:",
+      "requiredHint": "* Pflichtfeld",
+      "history": "Verlauf",
+      "fields": "Felder",
+      "edit": "Bearbeiten",
+      "save": "Speichern",
+      "delete": "Löschen",
+      "loadingTitle": "Lade Entscheidung ...",
+      "titlePlaceholder": "Titel eingeben..."
+    },
+    "template": {
+      "fieldsTitle": "Felder",
+      "placeholder": "Text einfügen...",
+      "none": "Keine Angabe"
+    },
+    "history": {
+      "empty": "History ist leer.",
+      "searchPlaceholder": "Suche...",
+      "timeRangePlaceholder": "Zeitraum",
+      "typePlaceholder": "Typ",
+      "timeRanges": {
+        "24h": "24 Stunden",
+        "7d": "7 Tage",
+        "30d": "30 Tage"
+      },
+      "types": {
+        "created": "Erstellung",
+        "statusChanged": "Statusänderung",
+        "fieldChanged": "Feldbearbeitung"
+      }
+    },
+    "deletion": {
+      "title": "Architekturentscheidung löschen?",
+      "text": {
+        "before": "Soll die Architekturentscheidung",
+        "after": "wirklich entfernt werden? Diese Aktion kann nicht rückgängig gemacht werden."
+      },
+      "cancel": "Abbrechen",
+      "confirm": "Löschen"
+    },
+    "errors": {
+      "invalidUrl": "Ungültige URL.",
+      "invalidUrlDecisionId": "Ungültige URL – keine gültige Entscheidungs-ID.",
+      "loadDecisionFailed": "Fehler beim Laden der Architekturentscheidung.",
+      "notLoggedIn": "Kein Benutzer angemeldet.",
+      "saveFailed": "Fehler beim Speichern der Änderungen."
+    }
+  },
+  "create": {
+    "title": "Architekturentscheidungen",
+    "form": {
+      "prompt": "Prompt (optional)",
+      "template": "Vorlage",
+      "promptPlaceholder": "Text einfügen...",
+      "templatePlaceholder": "Auswahl treffen..."
+    },
+    "actions": {
+      "generate": "Architekturvorschlag erstellen",
+      "add": "Architekturentscheidung hinzufügen",
+      "compare": "Vorschläge vergleichen",
+      "discard": "Löschen"
+    },
+    "errors": {
+      "templates": "Vorlagen konnten nicht geladen werden.",
+      "projectId": "Ungültige Projekt-ID in der URL.",
+      "templateMissing": "Keine gültige Vorlage für den Vorschlag gefunden."
+    },
+    "suggestion": {
+      "divider": "Vorschlag",
+      "thinking": "Thinking ...",
+      "empty": {
+        "before": "Prompt und Vorlage auswählen und",
+        "cta": "„Architekturvorschlag erstellen“",
+        "after": "anklicken."
+      },
+      "fallbackTitle": "Architekturvorschlag",
+      "emptyField": "Leer"
+    },
+    "alternatives": {
+      "title": "Alternativen",
+      "hint": "Klicken, um diese Alternative als Vorschlag zu übernehmen.",
+      "loading": "Alternativen werden generiert ...",
+      "empty": "Bisher wurden keine Alternativvorschläge generiert oder gefunden.",
+      "fallbackAlt": "Alternative",
+      "fieldFallback": "Feld",
+      "dash": "—"
+    },
+    "chat": {
+      "title": "Chat",
+      "empty": "Fragen zum generierten Vorschlag stellen, zum Beispiel: „Welche unmittelbaren Risiken ergeben sich aus dieser Architekturentscheidung?“",
+      "placeholder": "Text eingeben...",
+      "send": "Senden"
+    },
+    "success": {
+      "discarded": "Architekturvorschlag wurde verworfen."
+    }
+  }
+}
