@@ -1,5 +1,7 @@
 # Architecture Intelligence
 
+Architecture Intelligence is a web-based, AI-powered platform that supports the capture, analysis, and documentation of software architecture decisions by integrating information from multiple sources and generating context-aware architecture suggestions.
+
 > Voraussetzung für die Ausführung ist eine, vorzugsweise globale, Installation von **Python 3.13** und **Node 20.19.0** sowie das Starten von Docker!
 >
 > **Python:** https://www.python.org/downloads/  
